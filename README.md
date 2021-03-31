@@ -1,6 +1,6 @@
 # Chebas
 
-Chebas é mais que um BOT para o Discord desenvolvido em NodeJS utilizando a biblioteca Discord.js... ele é nosso amigo!
+Chebas é mais que um BOT para o Discord desenvolvido em NodeJS utilizando a biblioteca Discord.js...
 
 ## Comandos
 

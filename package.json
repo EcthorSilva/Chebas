@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/EcthorSilva/Chebas#readme",
   "dependencies": {
-    "discord.js": "^12.5.1",
-    "klasa": "^0.5.0"
+    "discord.js": "^12.5.1"
   }
 }

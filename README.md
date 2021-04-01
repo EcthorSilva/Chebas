@@ -8,6 +8,8 @@ Criei este BOT com o intuito de desenvolver os meus conhecimentos em JavaScript 
 
 - Correções na estrutura do código
 - Removido a biblioteca Klasa
+- Adicionado a biblioteca LowDB para iniciar um banco de dados simples
+- Ao iniciar o bot é mostrado em quantos servers ele esta e com quantos usuarios online
 
 ### Comandos
 

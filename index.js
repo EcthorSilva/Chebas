@@ -11,7 +11,6 @@ const adapter = new FileSync('db.json')
 const db = low(adapter)
 
 // Estrutura Principal
-
 client.login(config.token);
 
 client.on("ready", () => {
@@ -20,20 +19,19 @@ client.on("ready", () => {
     client.user.setActivity(` Estou em ${client.guilds.cache.size} servidores`); // Mostra em quantos servers o bot esta.
 });
 
-client.on('message', (msg) => {
-    help(msg);
+client.on('message', (message) => {
+    help(message);
 });
 
 client.on("guildCreat", () => {
     db.set(guild.id, []).write()
 })
 
-
 // Saudações
 client.on('message', async message => {
     
-    if (message.author.bot) return;
-    if (message.channel.type === 'dm') return;
+    if (message.author.bot) return; // Evita que o bot fique se respondendo ou respondendo outro bot em loop
+  //if (message.channel.type === 'dm') return; // Evita que o bot responda o comando na DM
     if (!message.content.startsWith(config.prefix)) return;
 
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
@@ -43,7 +41,6 @@ client.on('message', async message => {
         message.channel.send('Eae, se tiver alguma duvida é só escrever !help')
     }
 });
-
 
 // Banco de dados
 client.on('message', async message => {

@@ -22,6 +22,6 @@ Os comandos **!db**, **!banco de dados** ou **!database** mostram todos os coman
 
 >*!criar* - Cria um perfil com os dados do usuario que digitou o comando.
 
->*!editar* - Edita o nickname do usuario que digitou o comando. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)
+>*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)
 
 >*!apagar* - Apaga o perfil do usuario que digitou o comando. 

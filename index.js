@@ -29,15 +29,15 @@ client.on("guildCreat", () => {
 
 // Saudações
 client.on('message', async message => {
-    
+
     if (message.author.bot) return; // Evita que o bot fique se respondendo ou respondendo outro bot em loop
-  //if (message.channel.type === 'dm') return; // Evita que o bot responda o comando na DM
+    //if (message.channel.type === 'dm') return; // Evita que o bot responda o comando na DM
     if (!message.content.startsWith(config.prefix)) return;
 
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const comando = args.shift().toLowerCase();
-    
-    if (comando === 'Chebas' || comando === 'chebas'){
+
+    if (comando === 'Chebas' || comando === 'chebas') {
         message.channel.send('Eae, se tiver alguma duvida é só escrever !help')
     }
 });
@@ -77,5 +77,5 @@ client.on('message', async message => {
         db.get(message.guild.id).remove({ id: message.author.id }).write()
         message.channel.send('Perfil excluido com sucesso!')
     }
-    
+
 });

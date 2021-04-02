@@ -28,25 +28,35 @@ client.on("guildCreat", () => {
     db.set(guild.id, []).write()
 })
 
+
 // Saudações
-/*client.on('message', msg => {
-    if (msg.content === 'Eae Chebas' || msg.content === 'eae chebas' || msg.content === 'Chebas' || msg.content === 'chebas')
-        msg.reply('Salve')
-});*/
+client.on('message', async message => {
+    
+    if (message.author.bot) return;
+    if (message.channel.type === 'dm') return;
+    if (!message.content.startsWith(config.prefix)) return;
+
+    const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+    const comando = args.shift().toLowerCase();
+    
+    if (comando === 'Chebas' || comando === 'chebas'){
+        message.channel.send('Eae, se tiver alguma duvida é só escrever !help')
+    }
+});
 
 
 // Banco de dados
-client.on("message", async message => {
+client.on('message', async message => {
 
     if (message.author.bot) return;
-    if (message.channel.type === "dm") return;
+    if (message.channel.type === 'dm') return;
     if (!message.content.startsWith(config.prefix)) return;
 
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const comando = args.shift().toLowerCase();
 
     //criar
-    if (comando === "criar") {
+    if (comando === 'criar') {
         db.get(message.guild.id)
             .push({
                 id: message.author.id,
@@ -57,7 +67,7 @@ client.on("message", async message => {
     }
 
     //editar
-    if (comando === "editar") {
+    if (comando === 'editar') {
         if (!args[0]) return message.channel.send('Você esqeceu do argumento ')
         let [novonome] = args
         db.get(message.guild.id)
@@ -66,9 +76,9 @@ client.on("message", async message => {
     }
 
     //apagar
-    if (comando === "apagar") {
+    if (comando === 'apagar') {
         db.get(message.guild.id).remove({ id: message.author.id }).write()
         message.channel.send('Perfil excluido com sucesso!')
     }
-
+    
 });

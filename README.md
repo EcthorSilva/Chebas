@@ -19,8 +19,9 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 
 Os comandos **!db**, **!banco de dados** ou **!database** mostram todos os comandos presentes na função do banco de dados.
 
-*!criar* - Cria um perfil com os dados do usuario que digitou o comando.
 
-*!editar* - Edita o nickname do usuario que digitou o comando. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)
+>*!criar* - Cria um perfil com os dados do usuario que digitou o comando.
 
-*!apagar* - Apaga o perfil do usuario que digitou o comando. 
+>*!editar* - Edita o nickname do usuario que digitou o comando. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)
+
+>*!apagar* - Apaga o perfil do usuario que digitou o comando. 

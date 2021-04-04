@@ -12,6 +12,7 @@ Criei este BOT com o intuito de desenvolver os meus conhecimentos em JavaScript 
 - Ao iniciar o bot é mostrado em quantos servers ele esta e com quantos usuarios online
 - Adicionado as funções para dar inicio ao banco de dados em LowDB
 - Fiz algumas alterações na estrutura do help.js e correções no index.js
+- Todos os comandos do banco de dados foram movidos para a pasta *commands*
 
 ### Comandos
 
@@ -25,3 +26,13 @@ Os comandos **!db**, **!banco de dados** ou **!database** mostram todos os coman
 >*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)
 
 >*!apagar* - Apaga o perfil do usuario que digitou o comando. 
+
+### Bibliotecas
+
+[Discord.js](https://www.npmjs.com/package/discord.js)
+[Lowdb](https://www.npmjs.com/package/lowdb)
+
+#### Links Úteis
+
+[Discord Permissions Calculator](https://discordapi.com/permissions.html)
+[Discord Developer Portal](https://discord.com/developers/applications)

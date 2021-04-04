@@ -13,24 +13,30 @@ Criei este BOT com o intuito de desenvolver os meus conhecimentos em JavaScript 
 - Adicionado as funções para dar inicio ao banco de dados em LowDB
 - Fiz algumas alterações na estrutura do help.js e correções no index.js
 - Todos os comandos do banco de dados foram movidos para a pasta *commands*
+- Adicionado as bibliotecas ytdl-core e ffmpeg
+
+- bug: O bot entra no canal de voz, porém não reproduz a musica
 
 ### Comandos
 
-Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver também no discord usando os comandos **!ajuda**, **!help** ou **!comandos**).
-
-Os comandos **!db**, **!banco de dados** ou **!database** mostram todos os comandos presentes na função do banco de dados.
-
+Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver também no discord usando os comandos **!ajuda**, **!help** ou **!comandos**).  
 
 >*!criar* - Cria um perfil com os dados do usuario que digitou o comando.  
 >*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)  
 >*!apagar* - Apaga o perfil do usuario que digitou o comando.  
 
+>*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. Ex: *!play https://www.youtube.com/watch?*)  
+>*!skip* -  
+>*!stop* -  
+
 ### Bibliotecas
 
 [Discord.js](https://www.npmjs.com/package/discord.js)  
 [Lowdb](https://www.npmjs.com/package/lowdb)  
+[ffmpeg](https://www.npmjs.com/package/ffmpeg)  
+[ytdl-core](https://www.npmjs.com/package/ytdl-core)  
 
-#### Links Úteis
+### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  
 [Discord Developer Portal](https://discord.com/developers/applications)  

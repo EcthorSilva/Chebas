@@ -7,10 +7,6 @@ const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('db.json')
 const db = low(adapter)
 
-client.on("guildCreat", () => {
-    db.set(guild.id, []).write()
-})
-
 module.exports = function help(message) {
     let args = message.content.substring(prefix.length).split(' ');
     const comando = args.shift().toLowerCase();

@@ -21,20 +21,16 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 Os comandos **!db**, **!banco de dados** ou **!database** mostram todos os comandos presentes na função do banco de dados.
 
 
->*!criar* - Cria um perfil com os dados do usuario que digitou o comando.
-
->*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)
-
->*!apagar* - Apaga o perfil do usuario que digitou o comando. 
+>*!criar* - Cria um perfil com os dados do usuario que digitou o comando.  
+>*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)  
+>*!apagar* - Apaga o perfil do usuario que digitou o comando.  
 
 ### Bibliotecas
 
-[Discord.js](https://www.npmjs.com/package/discord.js)
-
-[Lowdb](https://www.npmjs.com/package/lowdb)
+[Discord.js](https://www.npmjs.com/package/discord.js)  
+[Lowdb](https://www.npmjs.com/package/lowdb)  
 
 #### Links Úteis
 
-[Discord Permissions Calculator](https://discordapi.com/permissions.html)
-
-[Discord Developer Portal](https://discord.com/developers/applications)
+[Discord Permissions Calculator](https://discordapi.com/permissions.html)  
+[Discord Developer Portal](https://discord.com/developers/applications)  

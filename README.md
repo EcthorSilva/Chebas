@@ -25,7 +25,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 >*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)  
 >*!apagar* - Apaga o perfil do usuario que digitou o comando.  
 
->*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. Ex: *!play https://www.youtube.com/watch?*)  
+>*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. (Ex: *!play link*)  
 >*!skip* -  
 >*!stop* -  
 

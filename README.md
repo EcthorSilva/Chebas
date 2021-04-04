@@ -30,9 +30,11 @@ Os comandos **!db**, **!banco de dados** ou **!database** mostram todos os coman
 ### Bibliotecas
 
 [Discord.js](https://www.npmjs.com/package/discord.js)
+
 [Lowdb](https://www.npmjs.com/package/lowdb)
 
 #### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)
+
 [Discord Developer Portal](https://discord.com/developers/applications)

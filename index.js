@@ -89,7 +89,7 @@ client.on('message', message => {
 
         break;
         
-        /*case 'skip':
+        case 'skip':
             var server = servers[message.id];
 
             if(server.dispatcher) server.dispatcher.end();
@@ -107,6 +107,6 @@ client.on('message', message => {
                 console.log('queue foi interrompido')
             }
             if(message.guild.connection) message.guild.voiceConnection.disconnect();
-        break;*/
+        break;
     }
 })

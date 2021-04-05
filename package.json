@@ -17,11 +17,7 @@
   },
   "homepage": "https://github.com/EcthorSilva/Chebas#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.5.0",
-    "avconv": "^3.1.0",
     "discord.js": "^12.5.1",
-    "ffmpeg": "0.0.4",
-    "ffmpeg-binaries": "^3.2.2",
     "ffmpeg-static": "^4.3.0",
     "lowdb": "^1.0.0",
     "opusscript": "0.0.8",

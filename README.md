@@ -14,8 +14,7 @@ Criei este BOT com o intuito de desenvolver os meus conhecimentos em JavaScript 
 - Fiz algumas alterações na estrutura do help.js e correções no index.js
 - Todos os comandos do banco de dados foram movidos para a pasta *commands*
 - Adicionado as bibliotecas ytdl-core e ffmpeg
-
-- bug: O bot entra no canal de voz, porém não reproduz a musica
+- Corrigido o bug do bot mudo após entrar no canal usando `npm install ffmpeg-static`
 
 ### Comandos
 
@@ -28,6 +27,10 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 >*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. (Ex: *!play link*)  
 >*!skip* -  
 >*!stop* -  
+
+### BUGs
+
+- Os comandos `*!skip*` e `*!stop*` não estão funcionando corretamente 
 
 ### Bibliotecas
 

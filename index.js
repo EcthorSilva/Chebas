@@ -39,8 +39,6 @@ client.on('message', async message => {
     }
 });
 
-
-
 // music
 
 const ytdl = require("ytdl-core");
@@ -93,14 +91,15 @@ client.on('message', message => {
         
         /*case 'skip':
             var server = servers[message.id];
-            if(server.dispatcher) server.dispatcher.end();
-            message.channel.send('a musica parou')
-        break;
 
+            if(server.dispatcher) server.dispatcher.end();
+            message.channel.send('Trocando de musica...')
+        break;
+        
         case 'stop':
             var server = servers[message.guild.id];
             if(message.guild.voiceConnection){
-                for(var i = server.queue.length -1; 1 >=0; i--){
+                for(var i = server.queue.length -1; 1 >= 0; i--){
                     server.queue.splice(i, 1);
                 }
                 server.dispatcher.end();
@@ -108,7 +107,6 @@ client.on('message', message => {
                 console.log('queue foi interrompido')
             }
             if(message.guild.connection) message.guild.voiceConnection.disconnect();
-        break;
-        */
+        break;*/
     }
 })

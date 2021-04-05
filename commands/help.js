@@ -19,6 +19,12 @@ module.exports = function help(message) {
             **!criar** - Cria um perfil com os dados do usuario que digitou o comando;
             **!editar** - Edita o nickname do usuario que digitou o comando (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*);
             **!apagar** - Apaga o perfil do usuario que digitou o comando.
+
+            ***MUSICAS***
+
+            **!play** - Cria um perfil com os dados do usuario que digitou o comando;
+            **!skip** - Quebra o bot;
+            **!stop** - Também quebra o bot.
             `)
             .setFooter('yamete kudasai~')
             .setColor('#2C5364');

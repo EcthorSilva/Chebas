@@ -7,12 +7,12 @@ Criei este BOT com o intuito de desenvolver os meus conhecimentos em JavaScript 
 ### Updates
 
 - Correções na estrutura do código
-- Removido a biblioteca Klasa
+- Removido bibliotecas desnecessárias
 - Adicionado a biblioteca LowDB para iniciar um banco de dados simples
 - Ao iniciar o bot é mostrado em quantos servers ele esta e com quantos usuarios online
 - Adicionado as funções para dar inicio ao banco de dados em LowDB
 - Fiz algumas alterações na estrutura do help.js e correções no index.js
-- Todos os comandos do banco de dados foram movidos para a pasta *commands*
+- Todos os comandos da parte de musicas foram movidos para a pasta *commands*
 - Adicionado as bibliotecas ytdl-core e ffmpeg
 - Corrigido o bug do bot mudo após entrar no canal usando `npm install ffmpeg-static`
 

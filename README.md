@@ -30,7 +30,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 
 ### BUGs
 
-- Os comandos `*!skip*` e `*!stop*` não estão funcionando corretamente 
+- Os comandos *`!skip`* e *`!stop`* não estão funcionando corretamente 
 
 ### Bibliotecas
 

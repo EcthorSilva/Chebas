@@ -4,10 +4,10 @@ _Chebas é um BOT para o Discord desenvolvido em NodeJS utilizando a biblioteca 
 
 Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript e conhecer mais sobre NodeJS que até o momento era algo muito novo para mim.
 
-[![Discord.js Badge](https://img.shields.io/badge/discord.js-12.5.1-7489d2)](https://www.npmjs.com/package/discord.js)
-[![LowDB Badge](https://img.shields.io/badge/lowdb-1.0.0-blue)](https://www.npmjs.com/package/lowdb)
+[![Discord.js Badge](https://img.shields.io/badge/Discord.js-12.5.1-7489d2)](https://www.npmjs.com/package/discord.js)
+[![LowDB Badge](https://img.shields.io/badge/Lowdb-1.0.0-blue)](https://www.npmjs.com/package/lowdb)
 [![FFmpeg Badge](https://img.shields.io/badge/FFmpeg--static-4.3.0-green)](https://www.npmjs.com/package/ffmpeg-static)
-[![ytdl-core Badge](https://img.shields.io/badge/ytdl--core-4.5.0-red)](https://www.npmjs.com/package/ytdl-core)
+[![ytdl-core Badge](https://img.shields.io/badge/Ytdl--Core-4.5.0-red)](https://www.npmjs.com/package/ytdl-core)
 [![OpusScript Badge](https://img.shields.io/badge/OpusScript-0.0.8-lightgrey)](https://www.npmjs.com/package/opusscript)
 ### Comandos
 

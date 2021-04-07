@@ -2,7 +2,7 @@
 
 _Chebas é um BOT para o Discord desenvolvido em NodeJS utilizando a biblioteca Discord.js_  
 
-Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript e conhecer mais sobre NodeJS que até o momento era algo muito novo para mim.
+Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript e conhecer mais sobre NodeJS.
 
 [![Discord.js Badge](https://img.shields.io/badge/Discord.js-12.5.1-7489d2)](https://www.npmjs.com/package/discord.js)
 [![LowDB Badge](https://img.shields.io/badge/Lowdb-1.0.0-blue)](https://www.npmjs.com/package/lowdb)

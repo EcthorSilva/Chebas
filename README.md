@@ -1,21 +1,14 @@
 # Chebas
 
-_Chebas é um BOT para o Discord desenvolvido em NodeJS utilizando a biblioteca Discord.js_
+_Chebas é um BOT para o Discord desenvolvido em NodeJS utilizando a biblioteca Discord.js_  
 
-Criei este BOT com o intuito de desenvolver os meus conhecimentos em JavaScript e NodeJS
+Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript e conhecer mais sobre NodeJS que até o momento era algo muito novo para mim.
 
-### Updates
-
-- Correções na estrutura do código
-- Removido bibliotecas desnecessárias
-- Adicionado a biblioteca LowDB para iniciar um banco de dados simples
-- Ao iniciar o bot é mostrado em quantos servers ele esta e com quantos usuarios online
-- Adicionado as funções para dar inicio ao banco de dados em LowDB
-- Fiz algumas alterações na estrutura do help.js e correções no index.js
-- Todos os comandos da parte de musicas foram movidos para a pasta *commands*
-- Adicionado as bibliotecas ytdl-core e ffmpeg
-- Corrigido o bug do bot mudo após entrar no canal usando `npm install ffmpeg-static`
-
+[![Discord.js Badge](https://img.shields.io/badge/discord.js-12.5.1-7489d2)](https://www.npmjs.com/package/discord.js)
+[![LowDB Badge](https://img.shields.io/badge/lowdb-1.0.0-blue)](https://www.npmjs.com/package/lowdb)
+[![FFmpeg Badge](https://img.shields.io/badge/FFmpeg--static-4.3.0-green)](https://www.npmjs.com/package/ffmpeg-static)
+[![ytdl-core Badge](https://img.shields.io/badge/ytdl--core-4.5.0-red)](https://www.npmjs.com/package/ytdl-core)
+[![OpusScript Badge](https://img.shields.io/badge/OpusScript-0.0.8-lightgrey)](https://www.npmjs.com/package/opusscript)
 ### Comandos
 
 Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver também no discord usando os comandos **!ajuda**, **!help** ou **!comandos**).  
@@ -25,20 +18,17 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 >*!apagar* - Apaga o perfil do usuario que digitou o comando.  
 
 >*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. (Ex: *!play link*)  
->*!skip* -  
->*!stop* -  
+### Updates
 
-### BUGs
-
-- Os comandos *`!skip`* e *`!stop`* não estão funcionando corretamente 
-
-### Bibliotecas
-
-[Discord.js](https://www.npmjs.com/package/discord.js)  
-[Lowdb](https://www.npmjs.com/package/lowdb)  
-[ffmpeg](https://www.npmjs.com/package/ffmpeg)  
-[ytdl-core](https://www.npmjs.com/package/ytdl-core)  
-
+- Correções na estrutura do código
+- Removido bibliotecas desnecessárias
+- Adicionado a biblioteca LowDB para iniciar um banco de dados simples
+- Ao iniciar o bot é mostrado em quantos servers ele esta e com quantos usuarios online
+- Adicionado as funções para dar inicio ao banco de dados em LowDB
+- Fiz algumas alterações na estrutura do help.js e correções no index.js
+- Adicionado as bibliotecas ytdl-core e ffmpeg
+- Todos os comandos da parte de musicas foram movidos para a pasta *commands*
+- Corrigido o bug do bot mudo após entrar no canal usando `npm install ffmpeg-static`  
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

@@ -9,6 +9,7 @@ Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript
 [![FFmpeg Badge](https://img.shields.io/badge/FFmpeg--static-4.3.0-green)](https://www.npmjs.com/package/ffmpeg-static)
 [![ytdl-core Badge](https://img.shields.io/badge/Ytdl--Core-4.5.0-red)](https://www.npmjs.com/package/ytdl-core)
 [![OpusScript Badge](https://img.shields.io/badge/OpusScript-0.0.8-lightgrey)](https://www.npmjs.com/package/opusscript)
+[![Yt-Search](https://img.shields.io/badge/2.8.0-Yt--Search-%23FF1C12)](https://www.npmjs.com/package/yt-search)
 ### Comandos
 
 Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver também no discord usando os comandos **!ajuda**, **!help** ou **!comandos**).  
@@ -17,18 +18,18 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 >*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)  
 >*!apagar* - Apaga o perfil do usuario que digitou o comando.  
 
->*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. (Ex: *!play link*)  
+>*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. (Ex: *!play link* ou *!play nome da musica*)  
+>*!skip* - Avança para a proxima musica, caso você tenha colocado outra musica na fila.  
+>*!stop* - Para a musica que esta em reprodução  
 ### Updates
 
-- Correções na estrutura do código
-- Removido bibliotecas desnecessárias
-- Adicionado a biblioteca LowDB para iniciar um banco de dados simples
-- Ao iniciar o bot é mostrado em quantos servers ele esta e com quantos usuarios online
-- Adicionado as funções para dar inicio ao banco de dados em LowDB
-- Fiz algumas alterações na estrutura do help.js e correções no index.js
-- Adicionado as bibliotecas ytdl-core e ffmpeg
-- Todos os comandos da parte de musicas foram movidos para a pasta *commands*
-- Corrigido o bug do bot mudo após entrar no canal usando `npm install ffmpeg-static`  
+- Correções na estrutura do código  
+- Novas atualizações para o comando de musicas
+- Agora é possivel solicitar a musica apenas com o nome dela  
+- Corrigido o problema ao pular ou parar a musica  
+- Agora a fila de musicas esta funcionando    
+- Todos os comandos da parte de musicas foram atualizados na pasta *commands*  
+- Adicionado uma nova biblioteca para fazer pesquisas de musicas no YouTube  
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

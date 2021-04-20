@@ -13,18 +13,12 @@ module.exports = function help(message) {
             .setTitle('Lisa de comandos...')
             .setDescription(`
             **!ajuda**, ** !help ** ou **!comandos** - Mostra todos os comandos presentes no bot.
-        
-            ***BANCO DE DADOS***
-
-            **!criar** - Cria um perfil com os dados do usuario que digitou o comando;
-            **!editar** - Edita o nickname do usuario que digitou o comando (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*);
-            **!apagar** - Apaga o perfil do usuario que digitou o comando.
 
             ***MUSICAS***
 
-            **!play** - Cria um perfil com os dados do usuario que digitou o comando;
-            **!skip** - Quebra o bot;
-            **!stop** - Também quebra o bot.
+            **!play** - Faz o bot pesquisar e tocar uma musica no YouTube (Também é possivel usando com um link);
+            **!skip** - Pula para a proxima musica da fila;
+            **!stop** - Faz o bot parar de tocar musica e sair do canal de voz.
             `)
             .setFooter('yamete kudasai~')
             .setColor('#2C5364');

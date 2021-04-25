@@ -52,9 +52,7 @@ client.on('message', async message => {
 
     if (message.author.bot) return; // Evita que o bot fique se respondendo ou respondendo outro bot em loop
 
-    // Verifica se o user esta dentro do canal de voz.
-    const voice_channel = message.member.voice.channel;
-    if (!voice_channel) return message.channel.send('Você precisa estar em um canal de voz para usar este comando!');
+    const voice_channel = message.member.voice.channel; // Verifica se o user esta dentro do canal de voz.
 
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const cmd = args.shift().toLowerCase();
@@ -63,6 +61,8 @@ client.on('message', async message => {
 
     // Se o user usou o comando play ele irá seguir por aqui.
     if (cmd === 'play') {
+
+        if (!voice_channel) return message.channel.send('Você precisa estar em um canal de voz para usar este comando!'); // Verifica se o user esta dentro do canal de voz.
         if (!args.length) return message.channel.send('Você esqueceu de colocar o link ou o nome da musica');
         let song = {};
 
@@ -139,7 +139,6 @@ const video_player = async (guild, song) => {
 }
 
 const skip_song = (message, server_queue) => {
-    if (!message.member.voice.channel) return message.channel.send('Você precisa estar em um canal de voz para usar este comando!');
     if(!server_queue){
         return message.channel.send(`Não tem nenhuma musica na fila.`);
     }
@@ -147,7 +146,6 @@ const skip_song = (message, server_queue) => {
 }
 
 const stop_song = (message, server_queue) => {
-    if (!message.member.voice.channel) return message.channel.send('Você precisa estar em um canal de voz para usar este comando!');
     server_queue.songs = [];
     server_queue.connection.dispatcher.end();
 }

@@ -30,7 +30,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 - Agora a fila de musicas esta funcionando    
 - Todos os comandos da parte de musicas foram atualizados na pasta *commands*  
 - Adicionado uma nova biblioteca para fazer pesquisas de musicas no YouTube  
-- Correções de bugs
+- Correções de bugs  
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

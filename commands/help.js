@@ -9,8 +9,9 @@ module.exports = function help(message) {
     if (!message.content.startsWith(prefix)) return;
 
     if (comando === 'help' || comando === 'ajuda') {
-        const embed = new MessageEmbed()
+        const HelpEmbed = new MessageEmbed()
             .setTitle('Lisa de comandos...')
+            
             .setDescription(`
             **!ajuda** ou **!help** - Mostra todos os comandos presentes no bot.
 
@@ -20,9 +21,11 @@ module.exports = function help(message) {
             **!skip** - Pula para a proxima musica da fila;
             **!stop** - Faz o bot parar de tocar musica e sair do canal de voz.
             `)
-            .setFooter('yamete kudasai~')
+
+            .setTimestamp()
+            .setFooter('by Spacewlkr#1605')
             .setColor('#2C5364');
-        message.channel.send(embed);
+        message.channel.send(HelpEmbed);
     }
 
     if (comando === 'info'){

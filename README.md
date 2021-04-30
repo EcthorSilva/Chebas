@@ -12,7 +12,7 @@ Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript
 [![Yt-Search](https://img.shields.io/badge/2.8.0-Yt--Search-%23FF1C12)](https://www.npmjs.com/package/yt-search)
 ### Comandos
 
-Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver também no discord usando os comandos **!ajuda**, **!help** ou **!comandos**).  
+Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver também no discord usando os comandos **!help** ou **!ajuda**).  
 
 >*!criar* - Cria um perfil com os dados do usuario que digitou o comando.  
 >*!editar* - Edita o nickname do usuario que digitou o comando dentro do banco de dados. (Lembrando que precisa usar o comando e um parametro. Ex: *!editar NewNickname*)  

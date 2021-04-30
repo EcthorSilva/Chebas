@@ -55,12 +55,12 @@ client.on('message', async message => {
     const voice_channel = message.member.voice.channel; // Verifica se o user esta dentro do canal de voz.
 
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
-    const cmd = args.shift().toLowerCase();
+    const comando = args.shift().toLowerCase();
 
     const server_queue = queue.get(message.guild.id);
 
     // Se o user usou o comando play ele irá seguir por aqui.
-    if (cmd === 'play') {
+    if (comando === 'play') {
 
         if (!voice_channel) return message.channel.send('Você precisa estar em um canal de voz para usar este comando!'); // Verifica se o user esta dentro do canal de voz.
         if (!args.length) return message.channel.send('Você esqueceu de colocar o link ou o nome da musica');
@@ -115,8 +115,8 @@ client.on('message', async message => {
         }
     }
 
-    else if (cmd === 'skip') skip_song(message, server_queue);
-    else if (cmd === 'stop') stop_song(message, server_queue);
+    else if (comando === 'skip') skip_song(message, server_queue);
+    else if (comando === 'stop') stop_song(message, server_queue);
 
 });
 

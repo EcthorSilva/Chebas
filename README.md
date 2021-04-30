@@ -21,6 +21,8 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 >*!play* - Dá play na musica escolhida. (Lembrando que precisa usar o comando e um parametro. (Ex: *!play link* ou *!play nome da musica*)  
 >*!skip* - Avança para a proxima musica, caso você tenha colocado outra musica na fila.  
 >*!stop* - Para a musica que esta em reprodução  
+
+>*!info* - Mostra algumas informações sobre o projeto e o desenvolvedor  
 ### Updates
 
 - Correções na estrutura do código  
@@ -31,6 +33,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 - Todos os comandos da parte de musicas foram atualizados na pasta *commands*  
 - Adicionado uma nova biblioteca para fazer pesquisas de musicas no YouTube  
 - Algumas correções pequenas  
+- Adicionado um *Embed* com algumas informações  
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

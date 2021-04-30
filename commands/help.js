@@ -24,4 +24,25 @@ module.exports = function help(message) {
             .setColor('#2C5364');
         message.channel.send(embed);
     }
+
+    if (comando === 'info'){
+        const InfoEmbed = new MessageEmbed()
+            .setURL('https://github.com/EcthorSilva/Chebas')
+            .setAuthor('Ecthor Silva', 'https://avatars.githubusercontent.com/u/13456785?v=4', 'https://github.com/EcthorSilva')
+    
+            .setDescription(`***Quer saber um pouco mais sobre o Chebas?***
+
+            Chebas é um BOT para Discord desenvolvido em NodeJS utilizando a biblioteca 
+            Discord.js, todo o codigo dele esta disponivel no Github caso você tenha alguma 
+            duvida ou sugestão é só me mandar uma mensagem, caso queira me ajudar é só 
+            ir até o meu repositório
+            
+            Github: https://github.com/EcthorSilva/Chebas`)
+
+            .setTimestamp()
+            .setFooter('by Spacewlkr#1605')
+            .setColor('#2C5364');
+
+            message.channel.send(InfoEmbed);
+    }
 };

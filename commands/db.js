@@ -1,5 +1,5 @@
 // bug fix 
-const prefix = '!';
+const { prefix } = require('../settings/config.json');
 
 // DataBase
 const low = require('lowdb')

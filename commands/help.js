@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js');
-const prefix = '!';
+const { prefix } = require('../settings/config.json'); // Puxa o prefixo que foi definido no arquivo config.json
 
 module.exports = function help(message) {
     let args = message.content.substring(prefix.length).split(' ');
@@ -8,11 +8,11 @@ module.exports = function help(message) {
     if (message.author.bot) return; // Evita que o bot fique se respondendo ou respondendo outro bot em loop
     if (!message.content.startsWith(prefix)) return;
 
-    if (comando === 'help' || comando === 'ajuda' || comando === 'comandos') {
+    if (comando === 'help' || comando === 'ajuda') {
         const embed = new MessageEmbed()
             .setTitle('Lisa de comandos...')
             .setDescription(`
-            **!ajuda**, ** !help ** ou **!comandos** - Mostra todos os comandos presentes no bot.
+            **!ajuda** ou **!help** - Mostra todos os comandos presentes no bot.
 
             ***MUSICAS***
 

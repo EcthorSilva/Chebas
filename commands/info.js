@@ -35,7 +35,7 @@ module.exports = function info(message) {
 
             .setDescription(`
                 Olá, ${message.author.username} você esta no servidor ${message.guild.name}, ele foi criado por ${message.guild.owner} e atualmente tem um total de ${message.guild.memberCount} membros.`)
-            .setThumbnail('https://discord.com/channels/')
+            .setThumbnail('https://cdn.discordapp.com/attachments/617496661324857367/835655032526602240/latest.png')
 
             .setTimestamp()
             .setColor('#2C5364')

@@ -11,41 +11,22 @@ module.exports = function help(message) {
     if (comando === 'help' || comando === 'ajuda') {
         const HelpEmbed = new MessageEmbed()
             .setTitle('Lisa de comandos...')
-            
+
             .setDescription(`
-            **!ajuda** ou **!help** - Mostra todos os comandos presentes no bot.
+            **!help** ou **!ajuda** - Mostra todos os comandos presentes no bot.
 
             ***MUSICAS***
 
             **!play** - Faz o bot pesquisar e tocar uma musica no YouTube (Também é possivel usando com um link);
             **!skip** - Pula para a proxima musica da fila;
             **!stop** - Faz o bot parar de tocar musica e sair do canal de voz.
+
+            *!info* - Mostra algumas informações sobre o servidor em que o bot esta presete  
             `)
 
             .setTimestamp()
             .setFooter('by Spacewlkr#1605')
             .setColor('#2C5364');
         message.channel.send(HelpEmbed);
-    }
-
-    if (comando === 'info'){
-        const InfoEmbed = new MessageEmbed()
-            .setURL('https://github.com/EcthorSilva/Chebas')
-            .setAuthor('Ecthor Silva', 'https://avatars.githubusercontent.com/u/13456785?v=4', 'https://github.com/EcthorSilva')
-    
-            .setDescription(`***Quer saber um pouco mais sobre o Chebas?***
-
-            Chebas é um BOT para Discord desenvolvido em NodeJS utilizando a biblioteca 
-            Discord.js, todo o codigo dele esta disponivel no Github caso você tenha alguma 
-            duvida ou sugestão é só me mandar uma mensagem, caso queira me ajudar é só 
-            ir até o meu repositório
-            
-            Github: https://github.com/EcthorSilva/Chebas`)
-
-            .setTimestamp()
-            .setFooter('by Spacewlkr#1605')
-            .setColor('#2C5364');
-
-            message.channel.send(InfoEmbed);
     }
 };

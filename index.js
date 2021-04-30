@@ -6,6 +6,7 @@ const ytSearch = require('yt-search');
 
 const db = require('./commands/db');
 const help = require('./commands/help');
+const info = require('./commands/info');
 //const music = require('./commands/music');
 const config = require('./settings/config.json');
 
@@ -21,6 +22,7 @@ client.on("ready", () => {
 client.on('message', (message) => {
     help(message);
     db(message);
+    info(message);
     //music(message);
 });
 

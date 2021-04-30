@@ -22,7 +22,8 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 >*!skip* - Avança para a proxima musica, caso você tenha colocado outra musica na fila.  
 >*!stop* - Para a musica que esta em reprodução  
 
->*!info* - Mostra algumas informações sobre o projeto e o desenvolvedor  
+>*!info* - Mostra algumas informações sobre o servidor em que o bot esta presete  
+>*!projeto* - Mostra algumas informações sobre o projeto do Chebas  
 ### Updates
 
 - Correções na estrutura do código  

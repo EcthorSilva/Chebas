@@ -7,7 +7,7 @@ Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript
 [![Discord.js Badge](https://img.shields.io/badge/Discord.js-12.5.1-7489d2)](https://www.npmjs.com/package/discord.js)
 [![LowDB Badge](https://img.shields.io/badge/Lowdb-1.0.0-blue)](https://www.npmjs.com/package/lowdb)
 [![FFmpeg Badge](https://img.shields.io/badge/FFmpeg--static-4.3.0-green)](https://www.npmjs.com/package/ffmpeg-static)
-[![ytdl-core Badge](https://img.shields.io/badge/Ytdl--Core-4.5.0-red)](https://www.npmjs.com/package/ytdl-core)
+[![ytdl-core Badge](https://img.shields.io/badge/Ytdl--Core-4.8.2-red)](https://www.npmjs.com/package/ytdl-core)
 [![OpusScript Badge](https://img.shields.io/badge/OpusScript-0.0.8-lightgrey)](https://www.npmjs.com/package/opusscript)
 [![Yt-Search](https://img.shields.io/badge/2.8.0-Yt--Search-%23FF1C12)](https://www.npmjs.com/package/yt-search)
 ### Comandos
@@ -35,7 +35,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 - Adicionado uma nova biblioteca para fazer pesquisas de musicas no YouTube  
 - Algumas correções pequenas  
 - Adicionado um *Embed* com algumas informações  
-- Update na biblioteca ytdl-core para 4.7.0
+- Update na biblioteca ytdl-core para 4.8.2
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

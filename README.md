@@ -35,7 +35,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 - Adicionado uma nova biblioteca para fazer pesquisas de musicas no YouTube  
 - Algumas correções pequenas  
 - Adicionado um *Embed* com algumas informações  
-- Update na biblioteca ytdl-core para 4.8.3
+- Update na biblioteca ytdl-core para 4.9.1
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

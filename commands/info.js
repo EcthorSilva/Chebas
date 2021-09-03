@@ -37,7 +37,10 @@ module.exports = function info(message) {
         const exampleEmbed = new MessageEmbed()
 
             .setDescription(`
-                Olá ${message.author.username}, você esta no servidor ${message.guild.name}, ele foi criado por ${message.guild.owner} no dia ${formatDate('DD/MM/YYYY, às HH:mm:ss', date)} e atualmente tem um total de ${message.guild.memberCount} membros. Você está conosco desde o dia ${formatDate('DD/MM/YYYY, às HH:mm:ss', joined)}`)
+                Olá ${message.author.username}, você esta no servidor ${message.guild.name}, ele foi criado por ${message.guild.owner} 
+                no dia ${formatDate('DD/MM/YYYY, às HH:mm:ss', date)} e atualmente tem um total de ${message.guild.memberCount} membros. 
+                Você está conosco desde o dia ${formatDate('DD/MM/YYYY, às HH:mm:ss', joined)}
+            `)
             .setThumbnail('https://cdn.discordapp.com/attachments/617496661324857367/835655032526602240/latest.png')
 
             .setTimestamp()

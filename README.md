@@ -35,7 +35,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 - Algumas correções pequenas  
 - Adicionado um *Embed* com algumas informações  
 - Update na biblioteca ytdl-core para 4.9.1
-- Removi o evento Ready do index para adicionalo a sua pasta propria onde futuramente haverá mais eventos  
+- Removi o evento Ready do index para adiciona-lo a sua pasta propria onde futuramente haverá mais eventos  
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

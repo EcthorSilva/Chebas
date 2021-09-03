@@ -2,6 +2,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+const { readdirSync } = require('fs')
+
 const db = require('./commands/db');
 const help = require('./commands/help');
 const info = require('./commands/info');
@@ -11,11 +13,15 @@ const config = require('./settings/config.json');
 // Estrutura Principal
 client.login(config.token);
 
-client.on("ready", () => {
-    console.log('Oh shit, here we go again...'); // Eu entendi a referencia
-    console.log(`Estou iniciando com ${client.users.cache.size} usuários em ${client.guilds.cache.size} servidores.`); // Mostra em quantos servers o bot esta e com quantos users online
-    client.user.setActivity(`Estou em ${client.guilds.cache.size} servidores`); // Mostra em quantos servers o bot esta.
-});
+// Carrega os arquivos na pasta events
+const evtFiles = readdirSync('./events/')
+console.log('log', `Carregando o total de ${evtFiles.length} eventos`)
+evtFiles.forEach(f => {
+  const eventName = f.split('.')[0]
+  const event = require(`./events/${f}`)
+
+  client.on(eventName, event.bind(null, client))
+})
 
 // Comandos
 client.on('message', (message) => {

@@ -27,7 +27,6 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 ### Updates
 
 - Correções na estrutura do código  
-- Novas atualizações para o comando de musicas
 - Agora é possivel solicitar a musica apenas com o nome dela  
 - Corrigido o problema ao pular ou parar a musica  
 - Agora a fila de musicas esta funcionando    
@@ -36,6 +35,7 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 - Algumas correções pequenas  
 - Adicionado um *Embed* com algumas informações  
 - Update na biblioteca ytdl-core para 4.9.1
+- Removi o evento Ready do index para adicionalo a sua pasta propria onde futuramente haverá mais eventos  
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

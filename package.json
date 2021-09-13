@@ -1,6 +1,6 @@
 {
   "name": "chebas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chebas é um BOT para Discord desenvolvido em NodeJS utilizando a biblioteca Discord.js",
   "main": "index.js",
   "scripts": {

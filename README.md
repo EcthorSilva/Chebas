@@ -10,6 +10,24 @@ Iniciei este projeto com o intuito de aprimorar meus conhecimentos em JavaScript
 [![ytdl-core Badge](https://img.shields.io/badge/Ytdl--Core-4.8.3-red)](https://www.npmjs.com/package/ytdl-core)
 [![OpusScript Badge](https://img.shields.io/badge/OpusScript-0.0.8-lightgrey)](https://www.npmjs.com/package/opusscript)
 [![Yt-Search](https://img.shields.io/badge/2.8.0-Yt--Search-%23FF1C12)](https://www.npmjs.com/package/yt-search)
+
+## Instalação  
+
+Primeiro você tera que clonar o repositório e se certificar que o [NodeJs](https://nodejs.org/en/) esteja instalado, assim que concluir esta etapa execute o seguinte comando no diretório raiz:  
+
+```sh
+
+npm install
+
+```  
+
+Se estiver tudo certo, crie um arquivo com o nome de config.json seguindo o exemplo do config.json.exemplo presente na pasta settings. Após concluir tudo você poderá iniciar seu bot utilizando o seguinte comando:
+
+```sh
+
+node .
+
+```  
 ### Comandos
 
 Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver também no discord usando os comandos **!help** ou **!ajuda**).  

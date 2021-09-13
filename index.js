@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const { readdirSync } = require('fs')
+const { readdirSync } = require('fs');
 
 const db = require('./commands/db');
 const help = require('./commands/help');
@@ -15,7 +15,7 @@ client.login(config.token);
 
 // Carrega os arquivos na pasta events
 const evtFiles = readdirSync('./events/')
-console.log('log', `Carregando o total de ${evtFiles.length} eventos`)
+console.log(`Carregando o total de ${evtFiles.length} eventos`)
 evtFiles.forEach(f => {
   const eventName = f.split('.')[0]
   const event = require(`./events/${f}`)

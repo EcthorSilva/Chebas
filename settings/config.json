@@ -1,6 +1,7 @@
 {
-    "token": "",
+    "token": "seu token aqui",
     "prefix": "!",
+    "main": "index.js",
     "build": {
         "version": "Release 2.0.1",
         "releaseDate": "31.03.2021"

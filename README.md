@@ -54,6 +54,8 @@ Aqui ficará a lista de todos os comandos presentes no BOT (É possivel ver tamb
 - Adicionado um *Embed* com algumas informações  
 - Update na biblioteca ytdl-core para 4.9.1
 - Removi o evento Ready do index para adiciona-lo a sua pasta propria onde futuramente haverá mais eventos  
+- Foi criado uma nova Branch para que eu possa trabalhar em algumas ideias usando o lowdb sem comprometer a Branch Master  
+
 ### Links Úteis
 
 [Discord Permissions Calculator](https://discordapi.com/permissions.html)  

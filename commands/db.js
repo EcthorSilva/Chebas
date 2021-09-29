@@ -7,7 +7,7 @@ const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('db.json')
 const db = low(adapter)
 
-module.exports = function help(message) {
+module.exports = function DataBase(message) {
     let args = message.content.substring(prefix.length).split(' ');
     const comando = args.shift().toLowerCase();
 

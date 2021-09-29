@@ -4,11 +4,17 @@ const client = new Discord.Client();
 
 const { readdirSync } = require('fs');
 
-const db = require('./commands/db');
+const DataBase = require('./commands/db');
 const help = require('./commands/help');
 const info = require('./commands/info');
 const music = require('./commands/music');
 const config = require('./settings/config.json');
+
+// DataBase
+const low = require('lowdb')
+const FileSync = require('lowdb/adapters/FileSync');
+const adapter = new FileSync('db.json')
+const db = low(adapter)
 
 // Estrutura Principal
 client.login(config.token);
@@ -26,7 +32,7 @@ evtFiles.forEach(f => {
 // Comandos
 client.on('message', (message) => {
     help(message);
-    db(message);
+    DataBase(message);
     info(message);
     music(message);
 });

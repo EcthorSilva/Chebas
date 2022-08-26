@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/EcthorSilva/Chebas#readme",
   "dependencies": {
-    "discord.js": "^12.5.1",
+    "discord.js": "^12.5.3",
     "ffmpeg-static": "^4.3.0",
     "lowdb": "^1.0.0",
     "opusscript": "0.0.8",
     "yt-search": "^2.8.0",
-    "ytdl-core": "^4.9.1"
+    "ytdl-core": "^4.11.1"
   }
 }
